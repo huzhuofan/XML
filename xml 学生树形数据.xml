@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+  <student01>
+     <name>zhangsan</name>
+     <id>01</id>
+     <sex>man</sex>
+  </student01>
+  <student02>
+     <name>
+     </name>
+     <id>
+     </id>
+     <sex>
+     </sex>
+  </student02>
+  <student03>
+     <name>
+     </name>
+     <id>
+     </id>
+     <sex>
+     </sex>
+  </student03>
+  
+</student>
