@@ -1,0 +1,38 @@
+#include "stdafx.h"
+#include<iostream>
+using namespace std;
+
+
+int main()
+{
+	class father
+	{
+	public:
+		father()
+		{
+			cout << "后父类" << endl;
+		}
+		~father()
+		{
+			cout << "后父类" << endl;
+		}
+	};
+
+	class son : public father
+	{
+	public:
+		son()
+		{
+			cout << "后子类" << endl;
+		}
+		~son()
+		{
+			cout << "后子类" << endl;
+		}
+	};
+
+	son s;
+	delete &s;
+
+	 return 0;
+}
